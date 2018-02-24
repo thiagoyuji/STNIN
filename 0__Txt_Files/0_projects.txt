@@ -1,0 +1,21 @@
+Android Projects
+Artificial Inteligente
+Inteligent City
+Big Integer
+RSA I and II
+Database
+Operational System
+Programming Language
+Full Stack
+Browser
+Data Structs
+Generate Language Codes
+Simple Code (Encryption)
+Game of Life
+Mask RG,CPF ...
+Writen Game
+Snake Game                                                      << Finished
+Dragon Curve
+Fibonnaci Clock
+Currencies Problem                                              << Finished
+Series Musics Movies Organization PC
