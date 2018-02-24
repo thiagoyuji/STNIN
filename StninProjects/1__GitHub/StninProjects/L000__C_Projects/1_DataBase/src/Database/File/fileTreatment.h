@@ -1,0 +1,13 @@
+#ifndef FILE_TREATMENT_H_INCLUDED
+#define FILE_TREATMENT_H_INCLUDED
+
+// INCLUDES, DEFINES :: Start
+// INCLUDES, DEFINES :: End
+
+// STRUCTS, ENUMS :: Start
+// STRUCTS, ENUMS :: End
+
+// INTERFACES :: Start
+// INTERFACES :: End
+
+#endif

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Menu
+comment1.params=
+comment1.target=Menu()
+comment2.params=
+comment2.target=boolean\ getInputText()
+comment3.params=InputText
+comment3.target=void\ setInputText(boolean)
+comment4.params=
+comment4.target=boolean\ getExit()
+comment5.params=Exit
+comment5.target=void\ setExit(boolean)
+comment6.params=
+comment6.target=void\ printMenuOptions()
+numComments=7

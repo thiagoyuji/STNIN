@@ -1,0 +1,63 @@
+//====================================================================\\
+||                _____                                               ||
+||               /  __ \                                              ||
+||               | /  \/_ __ ___  _ __  _   _ ___                     ||
+||               | |   | '__/ _ \| '_ \| | | / __|                    ||
+||               | \__/\ | | (_) | | | | |_| \__ \                    ||
+||                \____/_|  \___/|_| |_|\__,_|___/                    ||
+||                                  Sistema Whisper                   ||
+||====================================================================||
+||= Herc/Cronus                                                       ||
+\\====================================================================//
+
+=== [Changelog/Créditos]
+
+1.0 -> 2012/09/04
+     - Criação do Documento [lordalfa]
+1.1 -> 2017/06/21
+     - Tradução [SlexFire]
+	 
+=== [Explicação]
+
+Este trecho de código permite que os personagens executem eventos de NPCs via
+PM (Personal Message -> Mensagem Pessoal), onde pode-se usar até dez parâmetros. 
+O NPC deve ter uma label "OnWhisperGlobal", ou resultará no erro "evento não encontrado".
+
+	NPC:<nome do npc>		<String>{#String 2{#...{#String 10}}}
+	
+Os comandos são separados pelo caractere "#", e são armazenados em variáveis temporárias
+separadas.
+
+	@whispervar0$, @whispervar1$, ... @whispervar9$
+
+---------------------------------------------------------------------------------
+
+Abaixo está um exemplo de como esse recurso pode ser usado.
+Você digita um comando para o NPC "NPCCommander" no jogo com as seguintes instruções:
+
+	NPC:NPCCommander	Report#Killstealing#Lordalfa
+
+Os parâmetros são passados para a label "OnWhisperGlobal" do NPC, e pode ser processado
+de acordo:
+
+-	script	NPCCommander	-1,{
+OnWhisperGlobal:
+	// Informe ao jogador "Lordalfa" que ele foi reportado por KS.
+	if (@whispervar0$ == "Report")
+		message @whispervar2$,"Você foi reportado por "+@whispervar1$+".";
+	end;
+}
+
+Também pode ser usado para desencadeadar eventos ocultos:
+
+-	script	EventManager	-1,{
+OnWhisperGlobal:
+	if (getgmlevel() < 80) end;
+	if (@whispervar0$ == "pvp") {
+		// Script para evento PvP.
+	}
+	else if (@whispervar0$ == "mvp") {
+		// Script para invocar um eventto de MVP.
+	}
+	end;
+}

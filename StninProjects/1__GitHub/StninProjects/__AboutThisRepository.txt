@@ -1,0 +1,29 @@
+This Folders was Separate by language to be more organizate.
+
+But all of this Projects was implemented using >>
+	
+	* A >> Analyze(Analise)
+	* D >> Draw(Desenho)
+	* I >> Implementation(Implementaçao)
+	* T >> Test(Teste)
+
+All of this Folders have >>
+
+	* Test Folders
+	* Projects Folders
+	* Adit Folders
+	* Txt Documentation
+
+Author >> STNIN
+
+Files are organizate in this Format >> 
+
+0_ >> Test folder
+n_ >> Projects		n > 0
+
+
+
+Code --------------------------------------------------------------->>
+
+Ln >> Language
+Un >> University
