@@ -1,1 +1,0 @@
-/usr/bin/cc     CMakeFiles/SnakeGame.dir/src/SnakeGameMain.c.o CMakeFiles/SnakeGame.dir/src/SnakeMenu.c.o CMakeFiles/SnakeGame.dir/src/SnakeScore.c.o CMakeFiles/SnakeGame.dir/src/Snake.c.o CMakeFiles/SnakeGame.dir/src/SnakeCursor.c.o CMakeFiles/SnakeGame.dir/src/SnakeMap.c.o  -o SnakeGame 

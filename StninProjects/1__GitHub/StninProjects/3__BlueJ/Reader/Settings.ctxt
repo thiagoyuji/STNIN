@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Settings
-comment1.params=
-comment1.target=int\ getWordForSecond()
-comment2.params=WordForSecond
-comment2.target=void\ setWordForSecond(int)
-comment3.params=
-comment3.target=int\ inputWordForSecondFunction()
-numComments=4

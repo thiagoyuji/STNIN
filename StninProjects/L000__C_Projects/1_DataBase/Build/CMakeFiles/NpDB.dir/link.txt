@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/NpDB.dir/src/Npdb_Test_C.c.o CMakeFiles/NpDB.dir/src/Database/Dir/dirTreatment.c.o  -o NpDB 

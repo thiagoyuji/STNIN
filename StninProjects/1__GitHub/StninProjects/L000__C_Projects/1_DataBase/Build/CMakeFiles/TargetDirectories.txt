@@ -1,3 +1,0 @@
-/home/debianstnin/ProjectsLinux/Databases/Build/CMakeFiles/rebuild_cache.dir
-/home/debianstnin/ProjectsLinux/Databases/Build/CMakeFiles/NpDB.dir
-/home/debianstnin/ProjectsLinux/Databases/Build/CMakeFiles/edit_cache.dir
