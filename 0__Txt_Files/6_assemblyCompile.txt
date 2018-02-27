@@ -1,0 +1,16 @@
+sudo apt-get install nasm
+
+//Compile
+
+nasm -f elf64 file.asm
+
+//Create Executable
+//For execute this command you program has to start with
+// >>> _start
+// global _start \n _start:
+
+ld file.o -o file
+
+//Execute
+
+./file
