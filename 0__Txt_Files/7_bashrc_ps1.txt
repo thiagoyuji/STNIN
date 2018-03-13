@@ -2,3 +2,7 @@
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\][ ] \[\033[01;34m\]$ \[\033[01;33m\][\[\033[01;32m\]S\[\033[01;33m\]][\[\033[01;32m\]T\[\033[01;33m\]][\[\033[01;32m\]N\[\033[01;33m\]][\[\033[01;32m\]I\[\033[01;33m\]][\[\033[01;32m\]N\[\033[01;33m\]] \[\033[01;34m\]$ \[\033[01;31m\][ ] \[\033[01;32m\]>> '
 
 //Models created to put in terminal
+
+alias [nome do alias]="comando a ser executado"
+
+restart terminal
