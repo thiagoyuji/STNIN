@@ -20,3 +20,8 @@ vim
 nano
 sudo
 lightdm-gtk-greeter-settings
+gcc
+g++
+binutils
+virtualbox
+vmware
