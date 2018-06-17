@@ -25,3 +25,4 @@ g++
 binutils
 virtualbox
 vmware
+python-pip
